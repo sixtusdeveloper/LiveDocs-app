@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <Button>
-        CLick me
+        This is the Home page
       </Button>
     </div>
   )
