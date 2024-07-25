@@ -5,8 +5,7 @@ import { liveblocks } from '../liveblocks';
 import { revalidatePath } from 'next/cache';
 import { parseStringify } from '../utils';
 
-export const createDocument = async ({ userId, email }:
-    CreateDocumentParams) => {
+export const createDocument = async (userId: string, email: string, params: CreateDocumentParams) => {
         const roomId = nanoid();
 
         try {
